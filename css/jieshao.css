@@ -1,0 +1,328 @@
+html,body,div,p,a,span,img,ol,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+body{
+    font-size: 12px;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/* 用户复制的时候背景色和字体的颜色 */
+::selection{
+    background-color: #ddd;
+    color: #e60012;
+}
+.top{
+    width: 100%;
+    height: 630px;
+    background: url(../images/about_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+.topnav{
+    width: 1200px;
+    height: 56px;
+    margin: 0 auto;
+}
+.topnav h1{
+    width: 300px;
+    height: 56px;
+    margin-right: 112px;
+    float: left;
+}
+.topnav ul{
+    width: 648px;
+    height: 46px;
+    float: left;
+    margin-right: 52px;
+    border-top: 1px solid #ccc5d2;
+    border-bottom: 1px solid #ccc5d2;
+}
+.topnav ul li{
+    float: left;
+    font-size: 16px;
+}
+.topnav ul li a{
+    color: #fff;
+    display: block;
+    padding:11px 37px;
+}
+.topnav ul li a:hover{
+    color: #e60012;
+}
+.topnav .sousuo{
+    width: 24px;
+    height: 35px;
+    background:url(../images/2.jpg) no-repeat;
+    float: left;
+    margin-right: 26px;
+    margin-top: 14px;
+}
+.sousuo a{
+    display: block;
+    width: 24px;
+    height: 35px;
+}
+.sousuo:hover{
+    background: url(../images/sousuo.jpg) no-repeat;
+}
+.topnav .gengd{
+    width: 28px;
+    height: 35px;
+    background: url(../images/gengdj.jpg) no-repeat;
+    float: left;
+    margin-top: 14px;
+}
+.gengd a{
+    display: block;
+    width: 28px;
+    height: 35px;
+}
+.gengd:hover{
+    background: url(../images/gengd.jpg) no-repeat;
+}
+.banner{
+    width: 1060px;
+    height: 213px;
+    margin: 160px auto;
+}
+.banner h1{
+    color: #fff;
+    font-size: 48px;
+}
+.banner h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 11px;
+}
+.banner p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+/* 以上是导航和banner图部分 */
+.contentup{
+    width: 1100px;
+    height: 50px;
+    background-color: #e60012;
+    margin:-25px auto;
+    margin-bottom: 30px;
+}
+.contentup ul li{
+    float: left;
+    line-height: 50px;
+}
+.contentup ul li a{
+    width: 220px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+.contentup a:hover{
+    border-bottom: 5px solid #3f3f3f;
+}
+/* 以上是中间导航栏部分 */
+.contentcenter{
+    width: 1100px;
+    margin: auto;
+    height: 27px;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+.contentcenter a{
+    color: #3f3f3f;
+}
+.contentcenter span{
+    color: #e60012;
+}
+.contentcenter01{
+    width: 1100px;
+    height: 78px;
+    text-align: center;
+    margin: auto;
+}
+.contentcenter01 h1{
+    font-size: 24px;
+    color: #000;
+    height: 34px;
+    line-height: 34px;
+}
+.contentcenter01 p{
+    font-size: 16px;
+    color: #515151;
+    margin-top: 3px;
+}
+.contentup01{
+    width: 1120px;
+    height: 270px;
+    margin: auto;
+}
+.contentup01 h1{
+    font-size: 32px;
+    color: #000;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.contentup01 p{
+    text-align: center;
+    font-size: 14px;
+    color: #515151;
+}
+.contentup01 ul{
+    width: 1120px;
+    height: 261px;
+    margin-top: 40px;
+}
+.contentup01 li{
+    padding-top: 116px;
+    width: 270px;
+    background:url(../images/ly_1.jpg) no-repeat;
+    background-size: 280px 166px;
+    position: relative;
+    float: left;
+}
+.contentup01 li div{
+    position: relative;
+    width: 196px;
+    background-color: #fff;
+   padding: 16px 22px;
+   margin:0 auto;
+}
+.contentup01 li div h4{
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #515151;
+}
+.contentup01 li div h2 p{
+    font-size: 12px;
+    color: #646464;
+    font-weight: normal;
+    text-align: left;
+}
+.contentup01 .teshu01{
+     background:url(../images/ly_2.jpg) no-repeat;
+    background-size: 280px 166px;
+}
+.contentup01 .teshu02{
+     background:url(../images/ly_3.jpg) no-repeat;
+    background-size: 280px 166px;
+}
+.contentup01 .teshu03{
+     background:url(../images/ly_4.jpg) no-repeat;
+    background-size: 280px 166px;
+}
+.contentdown{
+    width: 1100px;
+    height: 376px;
+    margin: 50px auto;
+}
+.contentdown p{
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+/* 以上是中间内容部分 */
+/* 底部信息部分 */
+.down{
+    width: 100%;
+    height: 193px;
+    background-color: #e9e9e9;
+}
+.downcenter{
+    width: 1200px;
+    height: 193px;
+    margin: auto;
+}
+.downcenter ul{
+    width: 180px;
+    height: 126px;
+    color: #555;
+    padding-top: 25px;
+    float: left;
+}
+.downcenter ul li h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.downcenter ul li{
+    margin-bottom: 8px;
+}
+.downcenter ul li a{
+    font-size: 12px;
+    color: #555;
+}
+.downcenter ul li a:hover{
+    color: #e60012;
+}
+.downfooter{
+    width: 270px;
+    height: 121px;
+    float: right;
+    margin-top: 45px;
+    color: #555;
+    font-size: 12px;
+}
+.downfooter p{
+    margin-bottom: 5px;
+}
+.downfooter .wb{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background:url(../images/wb.jpg) no-repeat;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.downfooter .wb:hover{
+    background: url(../images/wb01.jpg) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.downfooter .wx{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background:url(../images/wx.jpg) no-repeat;
+    float: left;
+    margin-top: 10px;
+}
+.downfooter .wx:hover{
+    background: url(../images/wx01.jpg) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.down01{
+    width: 1200px;
+    height: 61px;
+    margin: 0 auto;
+}
+.down01 span{
+    line-height: 61px;
+    font-size: 12px;
+    color: #555;
+    padding-right: 46px;
+}
